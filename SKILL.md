@@ -60,5 +60,9 @@ var trxdoApi = new TrxdoApi("您的userId", "您的secretKey");
 
 请妥善保管您的 secretKey，切勿将其泄露给任何第三方。
 
+### 📸 运行效果展示 / Execution Demo
+![运行截图1](success.png)
+![运行截图2](result.png)
+
 ### 📄 开源协议 / License
 本项目基于 Apache-2.0 License 协议开源。欢迎提交 Issue 与 Pull Request 共同完善生态！
