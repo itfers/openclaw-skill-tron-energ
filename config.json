@@ -6,8 +6,8 @@
   "homepage": "https://www.trxdo.com",
   "entrypoint": "skill.py",
   "default_config": {
-    "userId": "146501555404",
-    "secretKey": "81fd639c22911762d8ca7e7c198f4e82",
+    "userId": "请填写您的TRXDO用户ID",
+    "secretKey": "请填写您的TRXDO用户 API Key",
     "apiUrl": "https://api.trxdo.com"
   },
   "triggers": [
