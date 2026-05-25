@@ -116,8 +116,8 @@ namespace ConsoleApp1
     {
         public FangTronspayApi()
         {
-            userId = "146501555404";/*这里填写您的API ID*/
-            secretKey = "81fd639c22911762d8ca7e7c198f4e82";/*这里填写您的API KEY*/
+            userId = "这里填写您的API ID";/*这里填写您的API ID*/
+            secretKey = "这里填写您的API KEY";/*这里填写您的API KEY*/
         }
     }
 }
