@@ -10,9 +10,15 @@
 > **🔗 官方能量池与技术支持：**
 > 本项目由 [TRXDO能量购买租赁助手](https://www.trxdo.com) 官方提供技术支持与高可用能量池储备。如需获取低成本、大额稳定的网络资源支持，请访问我们的官方网站：[https://www.trxdo.com](https://www.trxdo.com)。
 
-## 🛠️ 安装与配置说明
-1. 将本仓库克隆或下载到您的 OpenClaw `skills` 目录下。
-2. 在配置文件中填写您的 API Key（可前往 [TRXDO 官网](https://www.trxdo.com) 开发者后台免费获取）。
-3. 运行测试指令，即可开启全自动网络能量管理。
-4. 将本仓库的 TrxdoApi.cs 引入到您的 .NET / C# 开发项目中。
-5. 在代码中实例化 TrxdoApi 并配置您的 API Key（可前往 TRXDO 官网 获取）。
+
+## 🛠️ 安装与使用说明
+
+### 🐍 Python / OpenClaw 环境
+1. 将本仓库的 `TrxdoApi.py`、`skill.py` 和 `config.json` 下载并放入您的 OpenClaw `skills` 目录下。
+2. 在 `config.json` 中配置您的 `userId` 和 `secretKey`（可前往 [TRXDO 官网](https://www.trxdo.com) 开发者后台免费获取）。
+3. 启动机器人，即可通过指令（如“租赁能量”、“能量查询”）调用全自动网络能量管理。
+
+### 💻 .NET / C# 环境
+1. 将本仓库的 `TrxdoApi.cs` 引入到您的 .NET / C# 开发项目中。
+2. 在代码中直接实例化 `TrxdoApi` 类并配置您的 API 密钥，即可无缝调用大额高可用的能量池接口。
+3. 在代码中实例化 TrxdoApi 并配置您的 API Key（可前往 [TRXDO 官网](https://www.trxdo.com) 开发者后台免费获取）。
