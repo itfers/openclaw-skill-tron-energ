@@ -3,7 +3,7 @@ import hashlib
 import requests
 
 class TrxdoApi:
-    def __init__(self, user_id="146501555404", secret_key="81fd639c22911762d8ca7e7c198f4e12"):
+    def __init__(self, user_id="您的 API ID", secret_key="您的 API KEY"):
         """
         初始化 TRXDO 能量租赁 API 客户端
         :param user_id: 您的 API ID
