@@ -14,3 +14,5 @@
 1. 将本仓库克隆或下载到您的 OpenClaw `skills` 目录下。
 2. 在配置文件中填写您的 API Key（可前往 [TRXDO 官网](https://www.trxdo.com) 开发者后台免费获取）。
 3. 运行测试指令，即可开启全自动网络能量管理。
+4. 将本仓库的 TrxdoApi.cs 引入到您的 .NET / C# 开发项目中。
+5. 在代码中实例化 TrxdoApi 并配置您的 API Key（可前往 TRXDO 官网 获取）。
